@@ -1,0 +1,7 @@
+import cv2
+
+img = cv2.imread('test.jpg')
+#img = cv2.resize(img,(500, 500)) - aici putem schimba pixelii
+#print(img.shape) arata pixelii
+cv2.imshow('Result', img)
+cv2.waitKey(0)
